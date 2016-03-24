@@ -1,0 +1,27 @@
+{
+    "name": "limion/yii-tmdbapi-demo-app",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Vladyslav Holovko",
+            "email": "vlad.holovko@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/limion/yii-tmdbapi-demo-component"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii": "1.1.*",
+        "yiiext/migrate-command": "*",
+        "limion/yii-tmdbapi-demo-component": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}

@@ -1,0 +1,11 @@
+AddDefaultCharset UTF-8
+IndexIgnore */*
+
+#config for Yii
+RewriteEngine On
+
+RewriteCond    %{SCRIPT_FILENAME}  !-f
+RewriteCond    %{SCRIPT_FILENAME}  !-l
+RewriteCond    %{SCRIPT_FILENAME}  !-d
+RewriteCond    %{REQUEST_URI} !=/favicon.ico
+RewriteRule     .    index.php      [L,QSA]
